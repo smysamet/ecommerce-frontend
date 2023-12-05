@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProductsGridComponent } from './products-grid/products-grid.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ProductsGridComponent
+    ProductsGridComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
